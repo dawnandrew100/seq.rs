@@ -1,0 +1,17 @@
+# Mark png files as binary
+*.png binary
+
+# Correct diffs
+*.md diff=markdown
+
+# Ignore theme files for git languages
+papermod/** linguist-vendored
+
+# Treat minified/compiled assets as generated
+*.min.js linguist-generated
+*.en.js linguist-generated
+*.min.css linguist-generated
+
+# Line end standardization
+* text=auto
+*.md text eol=lf
