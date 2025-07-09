@@ -1,8 +1,10 @@
 # Mark png files as binary
 *.png binary
 
-# Correct diffs
+# Support for Markdown in GitHub languages
 *.md diff=markdown
+*.md linguist-language=Markdown
+*.md linguist-detectable=true
 
 # Ignore theme files for git languages
 papermod/** linguist-vendored
