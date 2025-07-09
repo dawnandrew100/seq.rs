@@ -1,0 +1,3 @@
+[submodule "src/themes/papermod"]
+	path = src/themes/papermod
+	url = https://github.com/cydave/zola-theme-papermod

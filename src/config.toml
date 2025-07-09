@@ -1,0 +1,52 @@
+# The URL the site will be built for
+base_url = "https://bioinformatics.rs"
+theme = "papermod"
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+minify_html = true
+
+taxonomies = [{ name = "tags", feed = true }]
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+[extra]
+[extra.papermod]
+title = "Bioinformatics"
+default_theme = "auto"
+theme = "light"
+language_direction = "auto"
+keywords = ["keyword1", "keyword2", "keyword3"]
+show_theme_toggle = true
+show_scroll_to_top = true
+show_code_copy_buttons = true
+show_reading_time = true
+show_word_count = false
+show_post_nav_links = true
+show_post_meta = true
+default_toc_open = false
+show_post_edit_button = false
+edit_post_url = "https://github.com/dawnandrew100/bioinformatics.rs/tree/main"
+#copyright = ""
+date_format = "%Y-%m-%d"
+navigation = [
+    { url = "$BASE_URL/archive", title = "Archive" },
+    { url = "$BASE_URL/tags", title = "Tags" },
+    { url = "$BASE_URL/search", title = "Search" },
+    { url = "https://getzola.org/", title = "Zola", is_external = true },
+]
+
+home_title = "Bioinformatics in Rust"
+home_content = "Welcome!<br><b>Bioinformatics in Rust</b> is a monthly newsletter that showcasing the Rust programming language in bioinformatics.<br>If you like the project, give a 🌟 on Github !"
+social_icons = [
+    { url = "https://github.com/dawnandrew100/bioinformatics.rs", title = "GitHub", icon = "github" },
+    { url = "$BASE_URL/atom.xml", title = "RSS", icon = "rss" },
+]
