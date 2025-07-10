@@ -5,6 +5,7 @@
 *.md diff=markdown
 *.md linguist-language=Markdown
 *.md linguist-detectable=true
+README.md linguist-detectable=false
 
 # Ignore theme files for git languages
 papermod/** linguist-vendored

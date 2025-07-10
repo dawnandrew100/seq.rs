@@ -6,12 +6,14 @@ date = 2025-07-01
 tags = ["2025", "July", "newsletter"]
 +++
 
-Welcome to the first edition of Bioinformatics in Rust!
+Welcome to the first edition of **Bioinformatics in Rust**!
 
 The general theme for all the monthly editions will be to have a crate of the month,
-a spotlight on a lesser known crate related to bioinformatics,
+a spotlight on a crate related to bioinformatics,
 recent research within bioinformatics,
-and a monthly challenge related to one or both of the previously mentioned crates.
+and a monthly challenge related to one or more of the previously mentioned crates.
+
+---
 
 ## Spotlight
 
@@ -39,32 +41,51 @@ handling indels. This Rust crate provides two variants of strobemers
 - MinStrobes - subsequent strobes chosen using minimum hash in sliding window
 - Randstrobes - subsequent strobes chosen using pseudo-random rule from hash values
 
-## Community & Ecosystem Updates
+Both strategies aim to improve sequence alignments and comparisons.
+
+---
 
 ## Research highlights
 
-### 1. Drug Targets for Hyperaldosteronism
+### Drug Targets for Hyperaldosteronism
 
 **Summary:**
 
-**Key Points:**
+Primary aldosteronism (PA) is a major cause of secondary hypertension.
+It’s characterized by aldosterone overproduction, suppressed renin activity,
+and often hypokalemia. This study integrates bioinformatics analyses with clinical
+data to uncover new therapeutic targets for PA.
+
+The bioinformatics techniques used in this paper were:
+
+- **Transcriptome-Wide Association Studies (TWAS):** Identified genes linked to
+PA risk.
+- **Summary-data-based Mendelian Randomization (SMR):** Inferred causal
+relationships between gene expression and PA.
+- **Two-sample Mendelian Randomization:** Validated gene-trait associations
+using genetic instruments.
+- **Protein-Protein Interaction (PPI) Network Analysis:** Explored gene
+interaction networks.
+- **Drug Repurposing & Molecular Docking:** Screened existing drugs for potential
+binding to key targets.
+- **Clinical Validation:** Used aldosterone-producing adenoma (APA) tissue samples
+to validate gene expression.
+
+SHMT1 is proposed as a promising drug target for PA. The study illustrates how
+integrative omics and experimental validation can accelerate target discovery.
 
 Jia, M., Lin, L., Yu, H., & others. (2025). Integrative bioinformatics approach
 identifies novel drug targets for hyperaldosteronism, with a focus on SHMT1 as a
 promising therapeutic candidate. Scientific Reports, 15, Article 1690.
 [DOI](https://doi.org/10.1038/s41598-025-85900-8)
 
-https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1547131/full
-https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2025.1464122/full
-https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1609615/full
-https://www.frontiersin.org/journals/molecular-biosciences/articles/10.3389/fmolb.2025.1616073/full
-
-## Dataset of the Month
+---
 
 ## Monthly challenge
 
 ___
 
-Have a tool, paper, dataset, or idea you’d like featured?  Have suggestions for the website? Want to submit your answer to the challenge to potentially be featured on next month’s newsletter?
-[Join the discord](https://discord.gg/dCMfwuze48)!
+![Ferris in Bioinformatics](/img/ferris.png)
 
+Have a tool, paper, dataset, or idea you’d like featured?  Have suggestions for the website? Want to submit your answer to the challenge to potentially be featured on next month’s newsletter?
+[![Discord](https://img.shields.io/badge/Join%20Us-Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/dCMfwuze48)
