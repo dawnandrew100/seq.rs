@@ -11,13 +11,13 @@ README.md linguist-detectable=false
 papermod/** linguist-vendored
 
 # Treat minified/compiled assets as generated
-*.min.js linguist-generated
-*.en.js linguist-generated
-*.min.css linguist-generated
+*.min.js linguist-generated=true
+*.en.js linguist-generated=true
+*.min.css linguist-generated=true
 
 # Line end standardization
 * text=auto
 *.md text eol=lf
 
 # Ignore generated public files (zola build)
-public/** linguist-generated
+public/** linguist-generated=true
