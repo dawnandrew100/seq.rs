@@ -16,6 +16,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Build only (with drafts)
+        working-directory: src
         uses: shalzz/zola-deploy-action@v0.20.0
         env:
           BUILD_DIR: public
@@ -34,8 +35,9 @@ jobs:
           ref: ${{ github.event.release.tag_name }}
 
       - name: Build and deploy
+        working-directory: src
         uses: shalzz/zola-deploy-action@v0.20.0
         env:
-          BUILD_DIR: docs
+          BUILD_DIR: public
           PAGES_BRANCH: gh-pages
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
