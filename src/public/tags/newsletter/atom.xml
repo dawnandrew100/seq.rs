@@ -7,7 +7,7 @@
     <updated>2025-07-01T00:00:00+00:00</updated>
     <id>https://bioinformatics.rs/tags/newsletter/atom.xml</id>
     <entry xml:lang="en">
-        <title>Bioinformatics in Rust #1</title>
+        <title>#1 Sequence analysis</title>
         <published>2025-07-01T00:00:00+00:00</published>
         <updated>2025-07-01T00:00:00+00:00</updated>
         
@@ -86,9 +86,42 @@ promising therapeutic candidate. Scientific Reports, 15, Article 1690.
 &lt;hr &#x2F;&gt;
 &lt;h2 id=&quot;monthly-challenge&quot;&gt;Monthly challenge&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#monthly-challenge&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
 &lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;strong&gt;Strobemers&lt;&#x2F;strong&gt; are fuzzy matching seeds that offer better tolerance for mutations
+like insertions and deletions compared to traditional k-mers. They&#x27;re a great
+tool for efficient sequence comparison and alignment.&lt;&#x2F;p&gt;
+&lt;p&gt;Implement your own &lt;strong&gt;strobemer generator function&lt;&#x2F;strong&gt; in Rust.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;MinStrobe - Choose subsequent strobes by selecting the minimum hash within a
+sliding window.&lt;&#x2F;li&gt;
+&lt;li&gt;RandStrobe - Choose subsequent strobes by a pseudo-random but reproducible rule derived from hash values.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;strong&gt;Your function should&lt;&#x2F;strong&gt;:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Input: DNA string&lt;&#x2F;li&gt;
+&lt;li&gt;Parameters: &lt;code&gt;k&lt;&#x2F;code&gt;, &lt;code&gt;w_min&lt;&#x2F;code&gt;, and &lt;code&gt;w_max&lt;&#x2F;code&gt; (k = strobe length, w = window length)&lt;&#x2F;li&gt;
+&lt;li&gt;Output: a list of strobemers (strings or hashes)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;bonus-challenge&quot;&gt;Bonus Challenge&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#bonus-challenge&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p&gt;Invent and implement a &lt;strong&gt;new strobe algorithm&lt;&#x2F;strong&gt;!&lt;&#x2F;p&gt;
+&lt;p&gt;Here are a few ideas to inspire you:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;HybridStrobe&lt;&#x2F;strong&gt; – switch between minstrobe and randstrobe dynamically&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;LoopStrobe&lt;&#x2F;strong&gt; – pick strobes from both forward and reverse directions&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;EntropyStrobe&lt;&#x2F;strong&gt; – prefer high-complexity regions for matching&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;FixedGapStrobe&lt;&#x2F;strong&gt; – always pick the second strobe at a fixed offset&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;how-to-share&quot;&gt;How to Share&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#how-to-share&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Post your code as a GitHub repo or Gist&lt;&#x2F;li&gt;
+&lt;li&gt;Share your entry on the discord&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
 &lt;hr &#x2F;&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;ferris.png&quot; alt=&quot;Ferris in Bioinformatics&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;Have a tool, paper, dataset, or idea you’d like featured?  Have suggestions for the website? Want to submit your answer to the challenge to potentially be featured on next month’s newsletter?
+&lt;p&gt;Have a tool, paper, dataset, or idea you’d like featured?
+Have suggestions for the website? Want to submit your answer to the challenge
+to potentially be featured on next month’s newsletter?
 &lt;a href=&quot;https:&#x2F;&#x2F;discord.gg&#x2F;dCMfwuze48&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;Join%20Us-Discord-7289DA?style=for-the-badge&amp;amp;logo=discord&amp;amp;logoColor=white&quot; alt=&quot;Discord&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
         
