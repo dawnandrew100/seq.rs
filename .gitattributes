@@ -21,3 +21,4 @@ papermod/** linguist-vendored
 
 # Ignore generated public files (zola build)
 public/** linguist-generated=true
+public/** linguist-detectable=false

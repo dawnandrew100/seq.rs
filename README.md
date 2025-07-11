@@ -1,8 +1,6 @@
-# bioinformatics.rs
+# Bioinformatics in Rust
 
-## Bioinformatics in Rust
-
-Welcome to **bioinformatics.rs**, your go-to hub for all things Rust in the world
+Welcome to **seq.rs**, your go-to hub for all things Rust in the world
 of bioinformatics.
 This site is built with [Zola](https://www.getzola.org) and styled using the sleek
 and minimal [PaperMod](https://github.com/cydave/zola-theme-papermod)theme to deliver

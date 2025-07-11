@@ -1,5 +1,5 @@
 +++
-title = "Bioinformatics in Rust #1"
+title = "#1 Sequence analysis"
 date = 2025-07-01
 
 [taxonomies]
@@ -83,9 +83,43 @@ promising therapeutic candidate. Scientific Reports, 15, Article 1690.
 
 ## Monthly challenge
 
-___
+**Strobemers** are fuzzy matching seeds that offer better tolerance for mutations
+like insertions and deletions compared to traditional k-mers. They're a great
+tool for efficient sequence comparison and alignment.
+
+Implement your own **strobemer generator function** in Rust.
+
+- MinStrobe - Choose subsequent strobes by selecting the minimum hash within a
+sliding window.
+- RandStrobe - Choose subsequent strobes by a pseudo-random but reproducible rule derived from hash values.
+
+**Your function should**:
+
+- Input: DNA string
+- Parameters: `k`, `w_min`, and `w_max` (k = strobe length, w = window length)
+- Output: a list of strobemers (strings or hashes)
+
+### Bonus Challenge
+
+Invent and implement a **new strobe algorithm**!
+
+Here are a few ideas to inspire you:
+
+- **HybridStrobe** – switch between minstrobe and randstrobe dynamically
+- **LoopStrobe** – pick strobes from both forward and reverse directions
+- **EntropyStrobe** – prefer high-complexity regions for matching
+- **FixedGapStrobe** – always pick the second strobe at a fixed offset
+
+### How to Share
+
+- Post your code as a GitHub repo or Gist
+- Share your entry on the discord
+
+---
 
 ![Ferris in Bioinformatics](/img/ferris.png)
 
-Have a tool, paper, dataset, or idea you’d like featured?  Have suggestions for the website? Want to submit your answer to the challenge to potentially be featured on next month’s newsletter?
+Have a tool, paper, dataset, or idea you’d like featured?
+Have suggestions for the website? Want to submit your answer to the challenge
+to potentially be featured on next month’s newsletter?
 [![Discord](https://img.shields.io/badge/Join%20Us-Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/dCMfwuze48)
