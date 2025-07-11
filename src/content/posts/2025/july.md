@@ -117,7 +117,7 @@ Here are a few ideas to inspire you:
 
 ---
 
-{{ image(dir="img/ferris.png", alt="Ferris in Bioinformatics") }}
+{{ ferris(dir="img/ferris.png", alt="Ferris in Bioinformatics") }}
 
 Have a tool, paper, dataset, or idea you’d like featured?
 Have suggestions for the website? Want to submit your answer to the challenge
