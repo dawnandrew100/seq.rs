@@ -18,7 +18,7 @@ jobs:
       - name: Build only (with drafts)
         uses: shalzz/zola-deploy-action@v0.20.0
         env:
-          BUILD_DIR: src/public
+          BUILD_DIR: src
           BUILD_ONLY: true
           BUILD_FLAGS: --drafts
         # No deploy — just validate build
@@ -36,6 +36,6 @@ jobs:
       - name: Build and deploy
         uses: shalzz/zola-deploy-action@v0.20.0
         env:
-          BUILD_DIR: src/public
+          BUILD_DIR: src
           PAGES_BRANCH: gh-pages
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
