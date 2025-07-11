@@ -23,7 +23,7 @@ and a monthly challenge related to one or more of the previously mentioned crate
 [docs.rs](https://docs.rs/noodles/0.99.0/noodles/) |
 [source](https://github.com/zaeleus/noodles)
 
-Noodles in an experimental API that is intended to handle common file formats in
+Noodles is an experimental API that is intended to handle common file formats in
 Bioinformatics such as [BAM 1.6](https://samtools.github.io/hts-specs/SAMv1.pdf),
 [FASTA](https://www.ncbi.nlm.nih.gov/genbank/fastaformat/),
 and [FASTQ](https://maq.sourceforge.net/fastq.shtml).
