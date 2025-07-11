@@ -117,7 +117,7 @@ Here are a few ideas to inspire you:
 
 ---
 
-![Ferris in Bioinformatics](/img/ferris.png)
+![Ferris in Bioinformatics](img/ferris.png)
 
 Have a tool, paper, dataset, or idea you’d like featured?
 Have suggestions for the website? Want to submit your answer to the challenge
