@@ -17,6 +17,7 @@ jobs:
 
       - name: Build only (with drafts)
         uses: shalzz/zola-deploy-action@v0.20.0
+        working-directory: src
         env:
           BUILD_DIR: public
           BUILD_ONLY: true
@@ -35,6 +36,7 @@ jobs:
 
       - name: Build and deploy
         uses: shalzz/zola-deploy-action@v0.20.0
+        working-directory: src
         env:
           BUILD_DIR: public
           PAGES_BRANCH: gh-pages
