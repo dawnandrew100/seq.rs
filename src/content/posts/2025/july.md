@@ -117,7 +117,7 @@ Here are a few ideas to inspire you:
 
 ---
 
-<img src="{{ get_url(path='img/ferris.png') }}" alt="Ferris in Bioinformatics">
+{{ image(dir="img/ferris.png", alt="Ferris in Bioinformatics") }}
 
 Have a tool, paper, dataset, or idea you’d like featured?
 Have suggestions for the website? Want to submit your answer to the challenge
