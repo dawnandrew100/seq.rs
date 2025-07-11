@@ -1,4 +1,3 @@
-# https://github.com/shalzz/zola-deploy-action
 name: Zola on GitHub Pages
 
 on:
@@ -8,34 +7,44 @@ on:
 
 jobs:
   build:
-    name: Build for PR or Release Check
+    name: Validate Zola build on PR
     runs-on: ubuntu-latest
     if: github.event_name == 'pull_request'
     steps:
-      - name: Checkout PR code
+      - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Build only (with drafts)
-        uses: shalzz/zola-deploy-action@v0.20.0
-        env:
-          BUILD_DIR: src/public
-          BUILD_ONLY: true
-          BUILD_FLAGS: --drafts
-        # No deploy — just validate build
+      - name: Install Zola
+        run: |
+          curl -sL https://github.com/getzola/zola/releases/latest/download/zola-x86_64-unknown-linux-gnu.tar.gz | tar -xz
+          sudo mv zola /usr/local/bin/
+
+      - name: Build with drafts
+        working-directory: src
+        run: zola build --drafts
 
   build_and_deploy:
     name: Build and Deploy Site
     runs-on: ubuntu-latest
     if: github.event_name == 'release'
     steps:
-      - name: Checkout release tag
+      - name: Checkout code
         uses: actions/checkout@v4
         with:
           ref: ${{ github.event.release.tag_name }}
 
-      - name: Build and deploy
-        uses: shalzz/zola-deploy-action@v0.20.0
-        env:
-          BUILD_DIR: src/public
-          PAGES_BRANCH: gh-pages
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Install Zola
+        run: |
+          curl -sL https://github.com/getzola/zola/releases/latest/download/zola-x86_64-unknown-linux-gnu.tar.gz | tar -xz
+          sudo mv zola /usr/local/bin/
+
+      - name: Build site
+        working-directory: src
+        run: zola build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: src/public
+          publish_branch: gh-pages
