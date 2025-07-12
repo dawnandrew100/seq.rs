@@ -19,6 +19,7 @@ build_search_index = true
 highlight_code = true
 
 [extra]
+
 [extra.papermod]
 title = "Bioinformatics"
 default_theme = "auto"
@@ -34,7 +35,7 @@ show_post_nav_links = true
 show_post_meta = true
 default_toc_open = false
 show_post_edit_button = false
-edit_post_url = "https://github.com/dawnandrew100/bioinformatics.rs/tree/main"
+edit_post_url = "https://github.com/dawnandrew100/seq.rs/tree/main"
 #copyright = ""
 date_format = "%Y-%m-%d"
 navigation = [
@@ -44,8 +45,8 @@ navigation = [
 ]
 
 home_title = "Bioinformatics in Rust"
-home_content = "Welcome!<br><b>Bioinformatics in Rust</b> is a monthly newsletter that showcasing the Rust programming language in bioinformatics.<br>If you like the project, give a 🌟 on Github !"
+home_content = "Welcome!<br><b>Bioinformatics in Rust</b> is a monthly newsletter that showcasing the Rust programming language in bioinformatics.<br>If you like the project, give it a 🌟 on Github !"
 social_icons = [
-    { url = "https://github.com/dawnandrew100/bioinformatics.rs", title = "GitHub", icon = "github" },
+    { url = "https://github.com/dawnandrew100/seq.rs", title = "GitHub", icon = "github" },
     { url = "$BASE_URL/atom.xml", title = "RSS", icon = "rss" },
 ]
