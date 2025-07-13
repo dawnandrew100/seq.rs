@@ -74,9 +74,10 @@ to validate gene expression.
 SHMT1 is proposed as a promising drug target for PA. The study illustrates how
 integrative omics and experimental validation can accelerate target discovery.
 
-Jia, M., Lin, L., Yu, H., & others. (2025). Integrative bioinformatics approach
-identifies novel drug targets for hyperaldosteronism, with a focus on SHMT1 as a
-promising therapeutic candidate. Scientific Reports, 15, Article 1690.
+Jia, M., Lin, L., Yu, H., Dong, Z., Pan, X., & Song, X. (2025).
+Integrative bioinformatics approach identifies novel drug targets for
+hyperaldosteronism, with a focus on SHMT1 as a promising therapeutic candidate.
+Scientific Reports, 15, Article 1690.
 [DOI](https://doi.org/10.1038/s41598-025-85900-8)
 
 ---
@@ -91,7 +92,8 @@ Implement your own **strobemer generator function** in Rust.
 
 - MinStrobe - Choose subsequent strobes by selecting the minimum hash within a
 sliding window.
-- RandStrobe - Choose subsequent strobes by a pseudo-random but reproducible rule derived from hash values.
+- RandStrobe - Choose subsequent strobes by a pseudo-random but reproducible rule
+derived from hash values.
 
 **Your function should**:
 
