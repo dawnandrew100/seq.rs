@@ -23,10 +23,11 @@ highlight_code = true
 [extra.papermod]
 title = "Bioinformatics"
 default_theme = "auto"
-theme = "light"
+theme = "dark"
 language_direction = "auto"
 keywords = ["keyword1", "keyword2", "keyword3"]
 show_theme_toggle = true
+show_archive_month_count = false
 show_scroll_to_top = true
 show_code_copy_buttons = true
 show_reading_time = true
@@ -36,7 +37,6 @@ show_post_meta = true
 default_toc_open = false
 show_post_edit_button = false
 edit_post_url = "https://github.com/dawnandrew100/seq.rs/tree/main"
-#copyright = ""
 date_format = "%Y-%m-%d"
 navigation = [
     { url = "$BASE_URL/archive", title = "Archive" },
