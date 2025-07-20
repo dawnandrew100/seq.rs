@@ -8,7 +8,7 @@
 README.md linguist-detectable=false
 
 # Ignore theme files for git languages
-papermod/** linguist-vendored
+papermod/* linguist-vendored
 
 # Treat minified/compiled assets as generated
 *.min.js linguist-generated=true
@@ -20,5 +20,5 @@ papermod/** linguist-vendored
 *.md text eol=lf
 
 # Ignore generated public files (zola build)
-public/** linguist-generated=true
-public/** linguist-detectable=false
+public/* linguist-generated=true
+public/* linguist-detectable=false
