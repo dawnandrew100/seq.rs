@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - Newsletters</title>
+    <link rel="self" type="application/atom+xml" href="https://dawnandrew100.github.io/seq.rs/posts/2025/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://dawnandrew100.github.io/seq.rs/posts/2025/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-08-01T00:00:00+00:00</updated>
+    <id>https://dawnandrew100.github.io/seq.rs/posts/2025/atom.xml</id>
+    <entry xml:lang="en">
+        <title>#2 Natural Language Processing</title>
+        <published>2025-08-01T00:00:00+00:00</published>
+        <updated>2025-08-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://dawnandrew100.github.io/seq.rs/posts/2025/august/"/>
+        <id>https://dawnandrew100.github.io/seq.rs/posts/2025/august/</id>
+        
+        <content type="html" xml:base="https://dawnandrew100.github.io/seq.rs/posts/2025/august/">&lt;p&gt;Welcome to the second edition of &lt;strong&gt;Bioinformatics in Rust&lt;&#x2F;strong&gt;!&lt;&#x2F;p&gt;
+&lt;p&gt;There was a great reception for the first-ever edition of this newsletter last month!
+I hope to keep that momentum going and continue bringing you exciting updates
+about Rust and bioinformatics.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;spotlight&quot;&gt;Spotlight&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#spotlight&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;rust-bert&quot;&gt;Rust-bert&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#rust-bert&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;crates.io&#x2F;crates&#x2F;rust_bert&quot;&gt;crates.io&lt;&#x2F;a&gt; |
+&lt;a href=&quot;https:&#x2F;&#x2F;docs.rs&#x2F;crate&#x2F;rust-bert&#x2F;latest&quot;&gt;docs.rs&lt;&#x2F;a&gt; |
+&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;guillaume-be&#x2F;rust-bert&quot;&gt;source&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Rust-bert is a Rust port of Hugging Face’s
+&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;huggingface&#x2F;transformers&quot;&gt;transformers library&lt;&#x2F;a&gt;.
+It offers a wide range of powerful natural language processing (NLP) features,
+such as:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Named Entity Recognition (NER)&lt;&#x2F;li&gt;
+&lt;li&gt;Part-of-Speech (POS) tagging&lt;&#x2F;li&gt;
+&lt;li&gt;Keyword extraction&lt;&#x2F;li&gt;
+&lt;li&gt;Masked Language Modeling&lt;&#x2F;li&gt;
+&lt;li&gt;And more&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;This, and its extensive suite of tests, makes it a powerful tool for integrating
+modern NLP capabilities into a fast, reliable Rust application.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;talea&quot;&gt;Talea&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#talea&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Subhagatoadak&#x2F;talea&quot;&gt;source&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Talea is a Rust-based project that leverages NLP techniques to extract vital
+information from input files. It is designed for users without the technical
+expertise to build their own data processing pipelines. Talea aims to make the extraction
+of crucial information as seamless and user-friendly as possible.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;research-highlights&quot;&gt;Research Highlights&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#research-highlights&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;quantum-natural-language-processing&quot;&gt;Quantum Natural Language Processing&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#quantum-natural-language-processing&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;strong&gt;Summary:&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Natural Language Processing is a subfield of artificial intelligence that aims to
+make computers understand human language. Quantum Natural Language Processing
+takes this concept and applies it to the realm of quantum computing.
+Some of the applications of this within the field of bioinformatics include: detection
+of non-coding RNA, the prediction of protein structure and function, biomedical
+literature mining, drug discovery&#x2F;design, and genomic sequence analysis.&lt;&#x2F;p&gt;
+&lt;p&gt;Pallavi, G., &amp;amp; Kumar, R.P. (2025).
+Quantum natural language processing and its applications in bioinformatics:
+a comprehensive review of methodologies, concepts, and future directions.
+Frontiers in Computer Science, 7, Article 1464122.
+&lt;a href=&quot;https:&#x2F;&#x2F;www.frontiersin.org&#x2F;journals&#x2F;computer-science&#x2F;articles&#x2F;10.3389&#x2F;fcomp.2025.1464122&#x2F;full&quot;&gt;DOI&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;monthly-challenge&quot;&gt;Monthly Challenge&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#monthly-challenge&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;Natural language processing (NLP) consists of many powerful components.
+Try programming it on your own!&lt;&#x2F;p&gt;
+&lt;p&gt;Some core tasks you can implement include:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Text Tokenization – Splitting text into smaller units called tokens
+(words, phrases, or symbols).&lt;&#x2F;li&gt;
+&lt;li&gt;Word Lemmatization – Reducing words to their base or dictionary form.&lt;&#x2F;li&gt;
+&lt;li&gt;Part-of-Speech Tagging – Assigning grammatical categories
+(noun, verb, adjective, etc.) to each token.&lt;&#x2F;li&gt;
+&lt;li&gt;Named Entity Recognition (NER) – Detecting and classifying proper nouns
+like people, places, or organizations.&lt;&#x2F;li&gt;
+&lt;li&gt;Coreference Resolution – Identifying when different words refer to the same
+entity within a text.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;bonus-challenge&quot;&gt;Bonus Challenge&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#bonus-challenge&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p&gt;Combine multiple NLP components into a pipeline that performs more sophisticated
+tasks.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;example-grammar-correction-pipeline&quot;&gt;Example: Grammar Correction Pipeline&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#example-grammar-correction-pipeline&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h4&gt;
+&lt;p&gt;Create a system that:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tokenizes the input.&lt;&#x2F;li&gt;
+&lt;li&gt;Tags each word with its part of speech.&lt;&#x2F;li&gt;
+&lt;li&gt;Detects grammar issues (e.g., verb tense mismatches, subject-verb disagreement).&lt;&#x2F;li&gt;
+&lt;li&gt;Suggests corrections using lemmatization and rules (or a small ML model).&lt;&#x2F;li&gt;
+&lt;li&gt;Reconstructs the corrected sentence.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;how-to-share&quot;&gt;How to Share&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#how-to-share&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Visit the official
+&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;dawnandrew100&#x2F;seqrs-challenges&quot;&gt;Challenge GitHub&lt;&#x2F;a&gt; page&lt;&#x2F;li&gt;
+&lt;li&gt;Share your entry on the discord&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;hr &#x2F;&gt;
+&lt;img src=&quot;https:&#x2F;&#x2F;dawnandrew100.github.io&#x2F;seq.rs&#x2F;img&#x2F;ferris.png&quot; alt=&quot;Ferris in Bioinformatics&quot;&gt;
+&lt;p&gt;Have a tool, paper, dataset, or idea you’d like featured?
+Have suggestions for the website? Want to submit your answer to the challenge
+to potentially be featured on next month’s newsletter?
+&lt;a href=&quot;https:&#x2F;&#x2F;discord.gg&#x2F;dCMfwuze48&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;Join%20Us-Discord-7289DA?style=for-the-badge&amp;amp;logo=discord&amp;amp;logoColor=white&quot; alt=&quot;Discord&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>#1 Sequence analysis</title>
+        <published>2025-07-01T00:00:00+00:00</published>
+        <updated>2025-07-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://dawnandrew100.github.io/seq.rs/posts/2025/july/"/>
+        <id>https://dawnandrew100.github.io/seq.rs/posts/2025/july/</id>
+        
+        <content type="html" xml:base="https://dawnandrew100.github.io/seq.rs/posts/2025/july/">&lt;p&gt;Welcome to the first edition of &lt;strong&gt;Bioinformatics in Rust&lt;&#x2F;strong&gt;!&lt;&#x2F;p&gt;
+&lt;p&gt;The general theme for all the monthly editions will be to have a crate of the month,
+a spotlight on a crate related to bioinformatics,
+recent research within bioinformatics,
+and a monthly challenge related to one or more of the previously mentioned crates.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;spotlight&quot;&gt;Spotlight&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#spotlight&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;noodles&quot;&gt;Noodles&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#noodles&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;crates.io&#x2F;crates&#x2F;noodles&quot;&gt;crates.io&lt;&#x2F;a&gt; |
+&lt;a href=&quot;https:&#x2F;&#x2F;docs.rs&#x2F;noodles&#x2F;0.99.0&#x2F;noodles&#x2F;&quot;&gt;docs.rs&lt;&#x2F;a&gt; |
+&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;zaeleus&#x2F;noodles&quot;&gt;source&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Noodles is an experimental API that is intended to handle common file formats in
+Bioinformatics such as &lt;a href=&quot;https:&#x2F;&#x2F;samtools.github.io&#x2F;hts-specs&#x2F;SAMv1.pdf&quot;&gt;BAM 1.6&lt;&#x2F;a&gt;,
+&lt;a href=&quot;https:&#x2F;&#x2F;www.ncbi.nlm.nih.gov&#x2F;genbank&#x2F;fastaformat&#x2F;&quot;&gt;FASTA&lt;&#x2F;a&gt;,
+and &lt;a href=&quot;https:&#x2F;&#x2F;maq.sourceforge.net&#x2F;fastq.shtml&quot;&gt;FASTQ&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;strobemers-rs&quot;&gt;Strobemers-rs&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#strobemers-rs&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;crates.io&#x2F;crates&#x2F;strobemers-rs&quot;&gt;crates.io&lt;&#x2F;a&gt; |
+&lt;a href=&quot;https:&#x2F;&#x2F;docs.rs&#x2F;strobemers-rs&#x2F;0.1.0&#x2F;strobemers_rs&#x2F;&quot;&gt;docs.rs&lt;&#x2F;a&gt; |
+&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;haradama&#x2F;strobemers-rs&quot;&gt;source&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;A &lt;a href=&quot;https:&#x2F;&#x2F;www.biorxiv.org&#x2F;content&#x2F;10.1101&#x2F;2021.01.28.428549v3.full&quot;&gt;strobemer&lt;&#x2F;a&gt;
+is a k-mer alternative for sequence comparison that intends to be more robust in
+handling indels. This Rust crate provides two variants of strobemers&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;MinStrobes - subsequent strobes chosen using minimum hash in sliding window&lt;&#x2F;li&gt;
+&lt;li&gt;Randstrobes - subsequent strobes chosen using pseudo-random rule from hash values&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Both strategies aim to improve sequence alignments and comparisons.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;research-highlights&quot;&gt;Research highlights&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#research-highlights&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;drug-targets-for-hyperaldosteronism&quot;&gt;Drug Targets for Hyperaldosteronism&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#drug-targets-for-hyperaldosteronism&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;strong&gt;Summary:&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Primary aldosteronism (PA) is a major cause of secondary hypertension.
+It’s characterized by aldosterone overproduction, suppressed renin activity,
+and often hypokalemia. This study integrates bioinformatics analyses with clinical
+data to uncover new therapeutic targets for PA.&lt;&#x2F;p&gt;
+&lt;p&gt;The bioinformatics techniques used in this paper were:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Transcriptome-Wide Association Studies (TWAS):&lt;&#x2F;strong&gt; Identified genes linked to
+PA risk.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Summary-data-based Mendelian Randomization (SMR):&lt;&#x2F;strong&gt; Inferred causal
+relationships between gene expression and PA.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Two-sample Mendelian Randomization:&lt;&#x2F;strong&gt; Validated gene-trait associations
+using genetic instruments.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Protein-Protein Interaction (PPI) Network Analysis:&lt;&#x2F;strong&gt; Explored gene
+interaction networks.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Drug Repurposing &amp;amp; Molecular Docking:&lt;&#x2F;strong&gt; Screened existing drugs for potential
+binding to key targets.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Clinical Validation:&lt;&#x2F;strong&gt; Used aldosterone-producing adenoma (APA) tissue samples
+to validate gene expression.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;SHMT1 is proposed as a promising drug target for PA. The study illustrates how
+integrative omics and experimental validation can accelerate target discovery.&lt;&#x2F;p&gt;
+&lt;p&gt;Jia, M., Lin, L., Yu, H., Dong, Z., Pan, X., &amp;amp; Song, X. (2025).
+Integrative bioinformatics approach identifies novel drug targets for
+hyperaldosteronism, with a focus on SHMT1 as a promising therapeutic candidate.
+Scientific Reports, 15, Article 1690.
+&lt;a href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.1038&#x2F;s41598-025-85900-8&quot;&gt;DOI&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;monthly-challenge&quot;&gt;Monthly challenge&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#monthly-challenge&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;strong&gt;Strobemers&lt;&#x2F;strong&gt; are fuzzy matching seeds that offer better tolerance for mutations
+like insertions and deletions compared to traditional k-mers. They&#x27;re a great
+tool for efficient sequence comparison and alignment.&lt;&#x2F;p&gt;
+&lt;p&gt;Implement your own &lt;strong&gt;strobemer generator function&lt;&#x2F;strong&gt; in Rust.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;MinStrobe - Choose subsequent strobes by selecting the minimum hash within a
+sliding window.&lt;&#x2F;li&gt;
+&lt;li&gt;RandStrobe - Choose subsequent strobes by a pseudo-random but reproducible rule
+derived from hash values.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;strong&gt;Your function should&lt;&#x2F;strong&gt;:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Input: DNA string&lt;&#x2F;li&gt;
+&lt;li&gt;Parameters: &lt;code&gt;k&lt;&#x2F;code&gt;, &lt;code&gt;w_min&lt;&#x2F;code&gt;, and &lt;code&gt;w_max&lt;&#x2F;code&gt; (k = strobe length, w = window length)&lt;&#x2F;li&gt;
+&lt;li&gt;Output: a list of strobemers (strings or hashes)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;bonus-challenge&quot;&gt;Bonus Challenge&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#bonus-challenge&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;p&gt;Invent and implement a &lt;strong&gt;new strobe algorithm&lt;&#x2F;strong&gt;!&lt;&#x2F;p&gt;
+&lt;p&gt;Here are a few ideas to inspire you:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;HybridStrobe&lt;&#x2F;strong&gt; – switch between minstrobe and randstrobe dynamically&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;LoopStrobe&lt;&#x2F;strong&gt; – pick strobes from both forward and reverse directions&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;EntropyStrobe&lt;&#x2F;strong&gt; – prefer high-complexity regions for matching&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;FixedGapStrobe&lt;&#x2F;strong&gt; – always pick the second strobe at a fixed offset&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;how-to-share&quot;&gt;How to Share&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#how-to-share&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Visit the official
+&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;dawnandrew100&#x2F;seqrs-challenges&quot;&gt;Challenge GitHub&lt;&#x2F;a&gt; page&lt;&#x2F;li&gt;
+&lt;li&gt;Share your entry on the discord&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;hr &#x2F;&gt;
+&lt;img src=&quot;https:&#x2F;&#x2F;dawnandrew100.github.io&#x2F;seq.rs&#x2F;img&#x2F;ferris.png&quot; alt=&quot;Ferris in Bioinformatics&quot;&gt;
+&lt;p&gt;Have a tool, paper, dataset, or idea you’d like featured?
+Have suggestions for the website? Want to submit your answer to the challenge
+to potentially be featured on next month’s newsletter?
+&lt;a href=&quot;https:&#x2F;&#x2F;discord.gg&#x2F;dCMfwuze48&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;Join%20Us-Discord-7289DA?style=for-the-badge&amp;amp;logo=discord&amp;amp;logoColor=white&quot; alt=&quot;Discord&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
