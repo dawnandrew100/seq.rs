@@ -81,7 +81,7 @@ navigation = [
     { url = "$BASE_URL/archive", title = "Archive" },
     { url = "$BASE_URL/tags", title = "Tags" },
     { url = "$BASE_URL/search", title = "Search" },
-    { url = "https://github.com/dawnandrew100/seqrs-challenges", title = "Challenge Submissions" },
+    { url = "https://github.com/dawnandrew100/seqrs-challenges", title = "Challenge Submissions", is_external = true },
     { url = "$BASE_URL/contribute", title = "Contribute" },
 ]
 
