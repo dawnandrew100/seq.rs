@@ -37,11 +37,34 @@ highlight_code = true
 [extra]
 
 [extra.papermod]
+keywords = [
+    "Rust",
+    "Rust programming language",
+    "Rust crates",
+    "Rust in bioinformatics",
+    "bioinformatics",
+    "bioinformatics tools",
+    "bioinformatics software",
+    "bioinformatics with Rust",
+    "biotechnology",
+    "biology",
+    "computational biology",
+    "crates",
+    "crates.io",
+    "ferris",
+    "life sciences",
+    "monthly newsletter",
+    "newsletter",
+    "programming",
+    "research",
+    "science",
+    "scientific computing",
+]
+
 title = "Bioinformatics"
-default_theme = "auto"
+default_theme = "dark"
 theme = "dark"
 language_direction = "auto"
-keywords = ["Rust", "Rust programming language", "newsletter", "monthly newsletter", "bioinformatics", "computational biology", "biology", "research", "crates", "ferris", "programming"]
 show_theme_toggle = true
 show_archive_month_count = false
 show_scroll_to_top = true
@@ -58,11 +81,19 @@ navigation = [
     { url = "$BASE_URL/archive", title = "Archive" },
     { url = "$BASE_URL/tags", title = "Tags" },
     { url = "$BASE_URL/search", title = "Search" },
+    { url = "https://github.com/dawnandrew100/seqrs-challenges", title = "Challenge Submissions" },
+    { url = "$BASE_URL/contribute", title = "Contribute" },
 ]
 
+home_content = """
+Welcome!<br>
+<b>Bioinformatics in Rust</b> is a monthly newsletter showcasing
+the Rust programming language in bioinformatics.<br>
+Check back during the first week of each month for new updates!<br>
+If you like the project, give it a 🌟 on GitHub !
+"""
 home_title = "Bioinformatics in Rust"
-home_content = "Welcome!<br><b>Bioinformatics in Rust</b> is a monthly newsletter that showcasing the Rust programming language in bioinformatics.<br>If you like the project, give it a 🌟 on Github !"
 social_icons = [
     { url = "https://github.com/dawnandrew100/seq.rs", title = "GitHub", icon = "github" },
-    { url = "$BASE_URL/atom.xml", title = "RSS", icon = "rss" },
+    { url = "$BASE_URL/atom.xml", title = "RSS feed", icon = "rss" },
 ]

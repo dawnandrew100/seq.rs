@@ -114,7 +114,8 @@ Here are a few ideas to inspire you:
 
 ### How to Share
 
-- Post your code as a GitHub repo or Gist
+- Visit the official
+[Challenge GitHub](https://github.com/dawnandrew100/seqrs-challenges) page
 - Share your entry on the discord
 
 ---
