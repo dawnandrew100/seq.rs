@@ -1,12 +1,12 @@
 +++
-title = ""
-date = yyyy-mm-dd
+title = "#3"
+date = 2025-09-01
 
 [taxonomies]
-tags = ["YEAR", "MONTH", "newsletter"]
+tags = ["2025", "September", "newsletter"]
 +++
 
-Welcome to the NUMBER edition of **Bioinformatics in Rust**!
+Welcome to the third edition of **Bioinformatics in Rust**!
 
 ---
 
