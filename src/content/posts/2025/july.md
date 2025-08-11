@@ -98,7 +98,7 @@ derived from hash values.
 **Your function should**:
 
 - Input: DNA string
-- Parameters: `k`, `w_min`, and `w_max` (k = strobe length, w = window length)
+- Parameters: `k`, `w`, and `n` (k = strobe length, w = window length, n = number of strobemer segments)
 - Output: a list of strobemers (strings or hashes)
 
 ### Bonus Challenge
