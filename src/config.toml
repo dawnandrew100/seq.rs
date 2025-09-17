@@ -1,6 +1,6 @@
 # The URL the site will be built for
 base_url = "https://dawnandrew100.github.io/seq.rs"
-theme = "papermod"
+theme = "papermod_2"
 generate_feeds = true
 feed_filenames = ["atom.xml"]
 minify_html = true
