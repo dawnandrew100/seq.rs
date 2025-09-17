@@ -1,7 +1,7 @@
 +++
 title = "Contribute"
 date = "2024-02-27"
-extra.hidden = true
+extra = {exclude_from_home = true, hide_breadcrumb = true }
 +++
 
 🦀 **Thanks for your interest in contributing!**
