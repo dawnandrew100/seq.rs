@@ -1,0 +1,96 @@
+<!doctype html><html dir=auto lang=en><head><meta charset=utf-8><meta content="IE=edge" http-equiv=X-UA-Compatible><meta content="width=device-width,initial-scale=1,shrink-to-fit=no" name=viewport><meta content="index, follow" name=robots><title>#2 Natural Language Processing</title><base href=https://dawnandrew100.github.io/seq.rs><meta content="Rust, Rust programming language, Rust crates, Rust in bioinformatics, bioinformatics, bioinformatics tools, bioinformatics software, bioinformatics with Rust, biotechnology, biology, computational biology, crates, crates.io, ferris, life sciences, monthly newsletter, newsletter, programming, research, science, scientific computing" name=keywords><meta name=description><link href=https://dawnandrew100.github.io/seq.rs/posts/2025/august/ rel=canonical><link href=https://dawnandrew100.github.io/seq.rs/css/includes/scroll-bar.css rel=stylesheet><link href=https://dawnandrew100.github.io/seq.rs/css/styles.css rel=stylesheet><link href=https://dawnandrew100.github.io/seq.rs/css/override.css rel=stylesheet><link href=https://dawnandrew100.github.io/seq.rs/atom.xml rel=alternate title=RSS type=application/atom+xml><noscript><style>#theme-toggle,.top-link{display:none}</style></noscript><script src="https://www.googletagmanager.com/gtag/js?id=G-GLQXBHKHJD" async></script><script>window.dataLayer = window.dataLayer || [];
+    function gtag() {dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-GLQXBHKHJD');</script><body class=dark id=top><script>if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    }</script><header class=header><nav class=nav><div class=logo><a title="Bioinformatics (Alt + H)" accesskey=h href=https://dawnandrew100.github.io/seq.rs> Bioinformatics </a><div class=logo-switches><button title="(Alt + T)" accesskey=t id=theme-toggle><svg viewbox="0 0 24 24" fill=none height=18 id=moon stroke=currentColor stroke-linecap=round stroke-linejoin=round stroke-width=2 width=24 xmlns=http://www.w3.org/2000/svg><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg> <svg viewbox="0 0 24 24" fill=none height=18 id=sun stroke=currentColor stroke-linecap=round stroke-linejoin=round stroke-width=2 width=24 xmlns=http://www.w3.org/2000/svg><circle cx=12 cy=12 r=5></circle><line x1=12 x2=12 y1=1 y2=3></line><line x1=12 x2=12 y1=21 y2=23></line><line x1=4.22 x2=5.64 y1=4.22 y2=5.64></line><line x1=18.36 x2=19.78 y1=18.36 y2=19.78></line><line x1=1 x2=3 y1=12 y2=12></line><line x1=21 x2=23 y1=12 y2=12></line><line x1=4.22 x2=5.64 y1=19.78 y2=18.36></line><line x1=18.36 x2=19.78 y1=5.64 y2=4.22></line></svg></button><ul class=lang-switch><li></ul></div></div><ul id=menu><li><a href=https://dawnandrew100.github.io/seq.rs/archive title=Archive> <span>Archive</span> </a><li><a href=https://dawnandrew100.github.io/seq.rs/tags title=Tags> <span>Tags</span> </a><li><a href=https://dawnandrew100.github.io/seq.rs/search title=Search> <span>Search</span> </a><li><a title="Challenge Submissions" href=https://github.com/dawnandrew100/seqrs-challenges> <span>Challenge Submissions</span> <svg viewbox="0 0 24 24" fill=none height=12 shape-rendering=geometricPrecision stroke=currentColor stroke-linecap=round stroke-linejoin=round stroke-width=2.5 width=12><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path><path d="M15 3h6v6"></path><path d="M10 14L21 3"></path></svg> </a><li><a href=https://dawnandrew100.github.io/seq.rs/contribute title=Contribute> <span>Contribute</span> </a></ul></nav></header><main class=main><article class=post-single><header class=post-header><div class=breadcrumbs><a href=https://dawnandrew100.github.io/seq.rs>Home</a> »  <a href=https://dawnandrew100.github.io/seq.rs/posts/>Posts</a> »  <a href=https://dawnandrew100.github.io/seq.rs/posts/2025/august/>#2 Natural Language Processing</a></div><h1 class=post-title>#2 Natural Language Processing</h1><div class=post-meta><span title="2025-08-01 00:00:00 +0000">2025-08-01</span> · 3 min · </div></header><div class=toc><details><summary title="(Alt + C)" accesskey=c><span class=details>Table of Contents</span></summary> <div class=inner><ul><li><a aria-label=Spotlight href=#spotlight>Spotlight</a> <ul><li><a aria-label=Rust-bert href=#rust-bert>Rust-bert</a><li><a aria-label=Talea href=#talea>Talea</a></ul><li><a aria-label="Research Highlights" href=#research-highlights>Research Highlights</a> <ul><li><a aria-label="Quantum Natural Language Processing" href=#quantum-natural-language-processing>Quantum Natural Language Processing</a></ul><li><a aria-label="Monthly Challenge" href=#monthly-challenge>Monthly Challenge</a> <ul><li><a aria-label="Bonus Challenge" href=#bonus-challenge>Bonus Challenge</a> <ul><li><a aria-label="Example: Grammar Correction Pipeline" href=#example-grammar-correction-pipeline>Example: Grammar Correction Pipeline</a></ul><li><a aria-label="How to Share" href=#how-to-share>How to Share</a></ul></ul></div></details></div><div class=post-content><p>Welcome to the second edition of <strong>Bioinformatics in Rust</strong>!<p>There was a great reception for the first-ever edition of this newsletter last month! I hope to keep that momentum going and continue bringing you exciting updates about Rust and bioinformatics.<hr><h2 id=spotlight>Spotlight<a aria-hidden=true class=anchor hidden href=#spotlight>#</a></h2><h3 id=rust-bert>Rust-bert<a aria-hidden=true class=anchor hidden href=#rust-bert>#</a></h3><p><a href=https://crates.io/crates/rust_bert>crates.io</a> | <a href=https://docs.rs/crate/rust-bert/latest>docs.rs</a> | <a href=https://github.com/guillaume-be/rust-bert>source</a><p>Rust-bert is a Rust port of Hugging Face’s <a href=https://github.com/huggingface/transformers>transformers library</a>. It offers a wide range of powerful natural language processing (NLP) features, such as:<ul><li>Named Entity Recognition (NER)<li>Part-of-Speech (POS) tagging<li>Keyword extraction<li>Masked Language Modeling<li>And more</ul><p>This, and its extensive suite of tests, makes it a powerful tool for integrating modern NLP capabilities into a fast, reliable Rust application.<h3 id=talea>Talea<a aria-hidden=true class=anchor hidden href=#talea>#</a></h3><p><a href=https://github.com/Subhagatoadak/talea>source</a><p>Talea is a Rust-based project that leverages NLP techniques to extract vital information from input files. It is designed for users without the technical expertise to build their own data processing pipelines. Talea aims to make the extraction of crucial information as seamless and user-friendly as possible.<hr><h2 id=research-highlights>Research Highlights<a aria-hidden=true class=anchor hidden href=#research-highlights>#</a></h2><h3 id=quantum-natural-language-processing>Quantum Natural Language Processing<a aria-hidden=true class=anchor hidden href=#quantum-natural-language-processing>#</a></h3><p><strong>Summary:</strong><p>Natural Language Processing is a subfield of artificial intelligence that aims to make computers understand human language. Quantum Natural Language Processing takes this concept and applies it to the realm of quantum computing. Some of the applications of this within the field of bioinformatics include: detection of non-coding RNA, the prediction of protein structure and function, biomedical literature mining, drug discovery/design, and genomic sequence analysis.<p>Pallavi, G., & Kumar, R.P. (2025). Quantum natural language processing and its applications in bioinformatics: a comprehensive review of methodologies, concepts, and future directions. Frontiers in Computer Science, 7, Article 1464122. <a href=https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2025.1464122/full>DOI</a><hr><h2 id=monthly-challenge>Monthly Challenge<a aria-hidden=true class=anchor hidden href=#monthly-challenge>#</a></h2><p>Natural language processing (NLP) consists of many powerful components. Try programming it on your own!<p>Some core tasks you can implement include:<ul><li>Text Tokenization – Splitting text into smaller units called tokens (words, phrases, or symbols).<li>Word Lemmatization – Reducing words to their base or dictionary form.<li>Part-of-Speech Tagging – Assigning grammatical categories (noun, verb, adjective, etc.) to each token.<li>Named Entity Recognition (NER) – Detecting and classifying proper nouns like people, places, or organizations.<li>Coreference Resolution – Identifying when different words refer to the same entity within a text.</ul><h3 id=bonus-challenge>Bonus Challenge<a aria-hidden=true class=anchor hidden href=#bonus-challenge>#</a></h3><p>Combine multiple NLP components into a pipeline that performs more sophisticated tasks.<h4 id=example-grammar-correction-pipeline>Example: Grammar Correction Pipeline<a aria-hidden=true class=anchor hidden href=#example-grammar-correction-pipeline>#</a></h4><p>Create a system that:<ul><li>Tokenizes the input.<li>Tags each word with its part of speech.<li>Detects grammar issues (e.g., verb tense mismatches, subject-verb disagreement).<li>Suggests corrections using lemmatization and rules (or a small ML model).<li>Reconstructs the corrected sentence.</ul><h3 id=how-to-share>How to Share<a aria-hidden=true class=anchor hidden href=#how-to-share>#</a></h3><ul><li>Visit the official <a href=https://github.com/dawnandrew100/seqrs-challenges>Challenge GitHub</a> page<li>Share your entry on the discord</ul><hr><img alt="Ferris in Bioinformatics" src=https://dawnandrew100.github.io/seq.rs/img/ferris.png><p>Have a tool, paper, dataset, or idea you’d like featured? Have suggestions for the website? Want to submit your answer to the challenge to potentially be featured on next month’s newsletter? <a href=https://discord.gg/dCMfwuze48><img src="https://img.shields.io/badge/Join%20Us-Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt=Discord></a></div><footer class=post-footer><ul class=post-tags><li><a href=https://dawnandrew100.github.io/seq.rs/tags/2025/>2025</a><li><a href=https://dawnandrew100.github.io/seq.rs/tags/august/>August</a><li><a href=https://dawnandrew100.github.io/seq.rs/tags/newsletter/>newsletter</a></ul><nav class=paginav><a class=prev href=https://dawnandrew100.github.io/seq.rs/posts/2025/july/> <span class=title>« Prev</span> <br> <span>#1 Sequence analysis</span> </a></nav></footer></article></main><footer class=footer><span>© 2025 <a href=https://dawnandrew100.github.io/seq.rs></a></span><span> Powered by <a rel="noopener noreferrer" href=https://www.getzola.org/ target=_blank>Zola</a> & <a href=https://github.com/cydave/zola-theme-papermod rel=noopener target=_blank>PaperMod</a> </span></footer><a aria-label="go to top" title="Go to Top (Alt + G)" accesskey=g class=top-link href=#top id=top-link> <svg viewbox="0 0 12 6" fill=currentColor xmlns=http://www.w3.org/2000/svg><path d="M12 6H0l6-6z"/></svg> </a><script>let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });</script><script>var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };</script><script>document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })</script><script>document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerText = 'copy';
+        function copyingDone() {
+            copybutton.innerText = 'copied!';
+            setTimeout(() => {
+                copybutton.innerText = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                var content = codeblock.textContent;
+                if(codeblock.firstChild.tagName == 'TABLE') {
+                    content = Array(...codeblock.firstChild.getElementsByTagName('span')).map((span) => { return span.textContent; }).join('');
+                }
+                navigator.clipboard.writeText(content);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            // td containing LineNos
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            // table containing LineNos and code
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            // code blocks not having highlight as parent class
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });</script>
