@@ -36,14 +36,26 @@ such as:
 This, and its extensive suite of tests, makes it a powerful tool for integrating
 modern NLP capabilities into a fast, reliable Rust application.
 
-### Talea
+### ttaw
 
-[source](https://github.com/Subhagatoadak/talea)
+[crates.io](https://crates.io/crates/ttaw) |
+[docs.rs](https://docs.rs/ttaw/0.3.0/ttaw/) |
+[source](https://github.com/shnewto/ttaw)
 
-Talea is a Rust-based project that leverages NLP techniques to extract vital
-information from input files. It is designed for users without the technical
-expertise to build their own data processing pipelines. Talea aims to make the extraction
-of crucial information as seamless and user-friendly as possible.
+Talking to a wall (ttaw) is described by the author as a piecemeal
+natural language processing library. The latest version at the time of writing,
+v0.3.0, is capable of detecting rhymes, detecting alliteration,
+and phonectic transcription.
+
+Functionality:
+
+- Determine if two words rhyme using the Double Metaphone phonetic encoding
+- Determine if two words rhyme using CMUdict phonetic encoding
+- Determine if two words alliterate using the Double Metaphone phonetic encoding
+- Determine if two words alliterate using CMUdict phonetic encoding
+- Get the CMUdict phonetic encoding of a word
+- Get the Double Metaphone phonetic encoding of a word (port of 
+[words/double-metahone](https://github.com/words/double-metaphone) library)
 
 ---
 
