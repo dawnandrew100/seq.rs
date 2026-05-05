@@ -13,10 +13,10 @@ jobs:
     if: github.event_name == 'pull_request'
     steps:
       - name: Checkout PR code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Build only (with drafts)
-        uses: shalzz/zola-deploy-action@v0.20.0
+        uses: shalzz/zola-deploy-action@v0.22.1
         env:
           BUILD_DIR: src
           BUILD_ONLY: true
@@ -29,12 +29,12 @@ jobs:
     if: github.event_name == 'release'
     steps:
       - name: Checkout release tag
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: ${{ github.event.release.tag_name }}
 
       - name: Build and deploy
-        uses: shalzz/zola-deploy-action@v0.20.0
+        uses: shalzz/zola-deploy-action@v0.22.1
         env:
           BUILD_DIR: src
           PAGES_BRANCH: gh-pages
